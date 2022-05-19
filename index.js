@@ -9,6 +9,11 @@ res.send({data: '🔥🔥🔥'});
 
 });
 
+app.get('/resume', (req, res) => {
+
+res.send({data: '💼💼'});
+
+});
 
 
 app.listen(8080, () => console.log('alive'));
