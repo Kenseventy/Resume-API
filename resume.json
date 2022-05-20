@@ -1,0 +1,68 @@
+{
+  "basics": {
+    "name": "Kenton McLeod",
+    "picture": "https://azureresumekm.blob.core.windows.net/$web/images/km.jfif?sp=r&st=2022-05-20T20:43:28Z&se=2022-05-21T04:43:28Z&spr=https&sv=2020-08-04&sr=b&sig=SDQSKgJU17G2l9lFtKVQaQ6BK6b9wZkh%2BHYTfh9c3mU%3D",
+    "email": "kmcloudtech@gmail.com",
+    "phone": "1-204-979-5370",
+    "website": "http://kmcloud.tech",
+    "summary": "Cloud Professional looking for next step.",
+    "highlights": "Azure Solutions Architect Expert Certification",
+    "location": {
+      "city": "Winnipeg",
+      "postalCode": "R3P 2A3",
+      "countryCode": "CAN"
+    },
+  "work": [
+    {
+      "company": "Linden Christian School",
+      "position": "IT Manager",
+      "startDate": "August 2020",
+      "endDate": "August 2022",
+      "summary": "Manager of all things techology in the organization",
+      "highlights": [
+        "Improvement of internet speeds 10x",
+        "Growth of Help Desk Team from 2 to 3"
+      ]
+    }
+  ],
+  "additionalWork": [
+    {
+      "company": "KM Cloud Technologies",
+      "position": "Principal consultant",
+      "website": "http://kmcloud.tech",
+      "startDate": "Jan 2020",
+      "endDate": "March 2020",
+      "summary": "Primary contract with Winnipeg Airport Authorities",
+      "highlights": [
+        "Deployed Windows 10 to majority of computers in the organization",
+        "Assisted with mentorship of Service Test Team"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Trillium College",
+      "area": "Network Administration",
+      "studyType": "Associates Degree",
+      "startDate": "January 2013",
+      "endDate": "November 2013"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Azure",
+      "level": "Expert",
+      "keywords": [
+        "Cloud Architecture",
+        "Functions",
+        "Storage",
+        "CDN",
+        "Cosmos DB",
+        "Azure AD",
+        "Azure Virtual Desktops",
+        "Azure CLI"
+      ]
+    }
+  ]
+}
+}
