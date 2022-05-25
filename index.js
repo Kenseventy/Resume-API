@@ -32,4 +32,4 @@ app.get('/resume/image', (req, res) => {
 
 
 
-app.listen(8080, () => console.log('Alive http://localhost:8080/api'));
+app.listen(8080, () => console.log('Alive and kicking'));

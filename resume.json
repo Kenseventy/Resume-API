@@ -12,6 +12,34 @@
       "postalCode": "R3P 2A3",
       "countryCode": "CAN"
     },
+    "certifications": [
+      {"Azure" : ["Fundamentals AZ-900",
+        "Administrator Associate AZ-103",
+        "Azure Solutions Architect Expert AZ-305"
+      ],
+      "Cisco": "Cisco Certified Network Associate"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Azure",
+        "level": "Expert",
+        "keywords": [
+          "Cloud Architecture",
+          "Functions",
+          "Storage",
+          "CDN",
+          "Cosmos DB",
+          "Azure AD",
+          "Visual Studio Code",
+          "Azure Virtual Desktops",
+          "Azure CLI",
+          "Github Actions",
+          "Node.js",
+          "Express.js"
+        ]
+      }
+    ],
   "work": [
     {
       "company": "Linden Christian School",
@@ -46,22 +74,6 @@
       "studyType": "Associates Degree",
       "startDate": "January 2013",
       "endDate": "November 2013"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Azure",
-      "level": "Expert",
-      "keywords": [
-        "Cloud Architecture",
-        "Functions",
-        "Storage",
-        "CDN",
-        "Cosmos DB",
-        "Azure AD",
-        "Azure Virtual Desktops",
-        "Azure CLI"
-      ]
     }
   ]
 }
