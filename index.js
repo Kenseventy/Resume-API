@@ -19,6 +19,7 @@ res.send('🔥🔥🔥');
 
 });
 
+
 app.get('/resume', (req, res) => {
     res.header("Content-Type",'application/json');
     res.sendFile('resume.json' , {root :__dirname});
