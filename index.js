@@ -8,14 +8,12 @@ const resume = require("./resume.json")
 
 
 app.use(basicAuth({
-    users: { 'admin': 'supersecret',
-            'resume': "resume" }
+    users: {'resume': "resume" },
+    challenge: true
 }))
 
 
 app.get('/api', (req, res) => {
-
-    const apiKey = req.query.apiKey;
 
 res.send('🔥🔥🔥');
 
@@ -24,10 +22,13 @@ res.send('🔥🔥🔥');
 app.get('/resume', (req, res) => {
     res.header("Content-Type",'application/json');
     res.sendFile('resume.json' , {root :__dirname});
-
-
-
+    
 }); 
 
+app.get('/resume/image', (req, res) => {
+    res.sendFile(__dirname + '/image.html');
+});
 
-app.listen(8080, () => console.log('alive'));
+
+
+app.listen(8080, () => console.log('Alive http://localhost:8080/api'));
