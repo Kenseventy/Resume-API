@@ -8,7 +8,7 @@ const resume = require("./resume.json")
 
 
 app.use(basicAuth({
-    users: {'resume': "resume" },
+    users: {'user': "resume" },
     challenge: true
 }))
 
