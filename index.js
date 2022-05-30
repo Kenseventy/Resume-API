@@ -15,7 +15,7 @@ app.use(basicAuth({
 
 app.get('/', (req, res) => {
 
-res.send('🔥🔥🔥');
+res.send('Thank you for accessing my API. My resume is available at rest.kmcloud.tech/resume');
 
 });
 
