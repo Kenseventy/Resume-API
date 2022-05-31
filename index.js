@@ -7,18 +7,16 @@ const fs = require("fs")
 const resume = require("./resume.json")
 
 
-app.use(basicAuth({
-    users: {'user': "resume" },
-    challenge: true
-}))
-
-
 app.get('/', (req, res) => {
 
 res.send('Thank you for accessing my API. My resume is available at rest.kmcloud.tech/resume');
 
 });
 
+app.use(basicAuth({
+    users: {'user': "resume" },
+    challenge: true
+}))
 
 app.get('/resume', (req, res) => {
     res.header("Content-Type",'application/json');
