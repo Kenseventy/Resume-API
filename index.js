@@ -3,8 +3,11 @@ const req = require('express/lib/request');
 const basicAuth = require('express-basic-auth')
 const app = express();
 const fs = require("fs")
-
 const resume = require("./resume.json")
+
+var azure = require('azure-storage');
+
+
 
 
 app.get('/', (req, res) => {

@@ -7,8 +7,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "azure-storage": "^2.10.7",
     "express": "^4.18.1",
-    "express-basic-auth": "^1.2.1",
-    "stripe": "^9.1.0"
+    "express-basic-auth": "^1.2.1"
   }
 }
