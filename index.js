@@ -25,6 +25,7 @@ app.get('/resume', (req, res) => {
     res.header("Content-Type",'application/json');
     res.sendFile('resume.json' , {root :__dirname});
     
+    
 }); 
 
 app.get('/resume/image', (req, res) => {
