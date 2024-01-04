@@ -8,6 +8,10 @@
             "runspaceId": 1
         },
         {
+            
+            "outputCapture": "std", // or "console" 
+        },
+        {
             "name": "Attach to PowerShell Functions",
             "type": "PowerShell",
             "request": "attach",
