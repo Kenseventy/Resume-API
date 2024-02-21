@@ -12,7 +12,7 @@ var azure = require('azure-storage');
 
 app.get('/', (req, res) => {
 
-res.send('Thank you for accessing my API. My resume is available at rest.kmcloud.tech/resume. Username: user, Password: resume');
+res.send('Thank you for accessing my API. My resume is available at rest.kmcloud.tech/resume. Username: user Password: resume');
 
 });
 
