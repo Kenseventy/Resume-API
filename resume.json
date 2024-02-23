@@ -57,7 +57,9 @@
       "JIRA Helpdesk",
       "Microsoft Graph API"
 ]
-  },
+  }
+],
+"additionalWork": [
   {
     "company": "Clear Concepts",
     "position": "Senior Cloud Consultant",
@@ -69,9 +71,7 @@
       "Microsoft Intune",
       "Microsoft Graph API"
 ]
-  }
-],
-"additionalWork": [
+  },
   {
     "company": "Linden Christian School",
     "position": "IT Manager",
