@@ -47,6 +47,18 @@
   ],
 "work": [
 {
+    "company": "Reimer World Corp.",
+    "position": "IT Support Coordinator",
+    "startDate": "November 2023",
+    "summary": "Coordination of M365 services and Helpdesk services",
+    "technologies": [
+      "Microsoft 365",
+      "Microsoft Defender for Cloud",
+      "JIRA Helpdesk",
+      "Microsoft Graph API"
+]
+  },
+  {
     "company": "Clear Concepts",
     "position": "Senior Cloud Consultant",
     "startDate": "January 2023",
