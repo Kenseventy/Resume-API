@@ -26,7 +26,7 @@ app.use(basicAuth({
 
 app.get('/resume', async (req, res) => {
     try {
-        const azureResponse = await axios.get(process.env.AZURE_FUNCTION_URL); // Replace 'Azure_Function_URL' with the actual URL
+        const azureResponse = await axios.get('https://restcounterapikm.azurewebsites.net/api/restcounterapi?code=0RM6aLm518VB3IedjFG9tNb-YpWr9uC6It7M-I-ptoS7AzFuV-hSVQ=='); // Replace 'Azure_Function_URL' with the actual URL
         const dynamicNumber = azureResponse.data.count; // Assuming the response contains a number property
 
         let resumeData = JSON.parse(fs.readFileSync(__dirname + '/resume.json', 'utf8'));
