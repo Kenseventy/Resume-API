@@ -4,10 +4,11 @@
   "picture": "available at /resume/image endpoint",
   "email": "Kenton@kmcloud.tech",
   "phone": "1-204-979-5370",
-  "website": "http://kmcloud.tech",
+  "website": "https://kmcloud.tech",
   "github": "https://github.com/kenseventy",
   "summary": "Cloud Professional looking for next step.",
-  "highlights": "Azure Solutions Architect Expert Certification",
+  "highlight 1": "Azure Solutions Architect Expert Certification",
+  "highlight 2": "Decade of IT working experience",
   "location": {
     "city": "Winnipeg",
     "postalCode": "R3P 2A3",
