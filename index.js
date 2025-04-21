@@ -4,6 +4,7 @@ const basicAuth = require('express-basic-auth')
 const app = express();
 const fs = require("fs")
 const resume = require("./resume.json")
+require('dotenv').config();
 const axios = require('axios');
 var azure = require('azure-storage');
 
